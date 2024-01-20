@@ -1,0 +1,60 @@
+@media screen and (min-width: 768px) and (max-width:992px) { 
+    body {
+       background-image: url("https://img.freepik.com/fotos-premium/paisagem-abstrata-caprichosa-e-eterea-com-formas-borradas-em-cores-pastel_928211-3080.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100vw;
+   height: 100vh;
+   overflow-x: hidden;
+   }
+   .gallery {
+   padding-bottom: 20px;
+   margin: auto;
+   width: 70vw;
+   height: 83vh;
+   }
+   img {
+   margin: auto;
+   width: 33vw;
+   height: 19.5vh;
+   margin: 2px;
+   border-radius: 20px;
+   border: solid black;
+   filter: grayscale(100%);
+   opacity: 0.3;
+    object-fit: cover;
+ }
+ .imgnone {
+    opacity: 0;
+ }
+ }
+ @media screen and (min-width:320px ) and (max-width:768px) {
+   body {
+    background-image: url("https://img.freepik.com/fotos-premium/paisagem-abstrata-caprichosa-e-eterea-com-formas-borradas-em-cores-pastel_928211-3080.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100vw;
+   height: 100vh;
+   overflow-x: hidden;
+   }
+   .gallery {
+   padding-bottom: 20px;
+   margin: auto;
+   width: 70vw;
+   height: 85vh;
+   }
+   img {
+   margin: auto;
+   width: 31vw;
+   height: 19.5vh;
+   margin: 2px;
+   border-radius: 20px;
+   border: solid black;
+   filter: grayscale(100%);
+   opacity: 0.3;
+    object-fit: cover;
+ }
+ .imgnone {
+    opacity: 0;
+ }
+ }

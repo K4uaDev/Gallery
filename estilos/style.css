@@ -1,0 +1,54 @@
+body {
+    background-image: url("https://img.freepik.com/fotos-premium/paisagem-abstrata-caprichosa-e-eterea-com-formas-borradas-em-cores-pastel_928211-3080.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .gallery {
+    padding-bottom: 20px;
+    margin: auto;
+    width: 79vw;
+    height: 83vh;
+  /*   backdrop-filter: blur(10px); */
+  }
+  img {
+    margin: auto;
+    width: 25vw;
+    height: 26.4vh;
+    margin: 2px;
+    border-radius: 20px;
+    border: solid black;
+    filter: grayscale(100%);
+    opacity: 0.3;
+     object-fit: cover;
+  }
+  h1 {
+    width: 200px;
+    text-align: center;
+    box-shadow: 3px 3px 0 4px black;
+    background: transparent;
+    backdrop-filter: blur(10px);
+  }
+  .titulo {
+    width: 220px;
+    margin: auto;
+  }
+  img:hover {
+     transform: translate(5px, -5px);
+     filter: grayscale(0%);
+     transition: 0.7s;
+     opacity:10;
+  }
+  h1:hover {
+    color: white;
+    box-shadow: 5px 3px 7px 1px white;
+    background: rgba(0, 0, 0, 0.637);
+    border-radius: 5px;
+    transition: 0.8s;
+  /*transform: skew(7deg, 3deg)*/
+  transform: scale(1.1)
+  }
+  
