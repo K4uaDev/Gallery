@@ -43,13 +43,14 @@ body {
      transition: 0.7s;
      opacity:10;
   }
-  h1:hover {
+  /*
+   h1:hover { 
     color: white;
     box-shadow: 5px 3px 7px 1px white;
     background: rgba(0, 0, 0, 0.637);
     border-radius: 5px;
     transition: 0.8s;
-  /*transform: skew(7deg, 3deg)*/
+  /*transform: skew(7deg, 3deg)
   transform: scale(1.1)
   }
-  
+  */
