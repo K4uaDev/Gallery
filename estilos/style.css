@@ -2,6 +2,7 @@ body {
     background-image: url("https://img.freepik.com/fotos-premium/paisagem-abstrata-caprichosa-e-eterea-com-formas-borradas-em-cores-pastel_928211-3080.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center bottom;
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
